@@ -49,6 +49,7 @@ h1 {
     font-family:'Bebas Neue', cursive;
     font-size: 80px;
     font-weight: 500;
+    margin-bottom: 0;
 }
 h2 {
     font-family:'Bebas Neue', cursive;
@@ -85,6 +86,9 @@ h4 {
 }
 .container{
     width: 50%;
+}
+.container p{
+    margin-bottom: 10%;
 }
 .container img {
     margin-top: -60px;
