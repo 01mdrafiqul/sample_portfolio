@@ -2,7 +2,7 @@ body {
     font-family: 'Anton', sans-serif;
     font-family: 'Poppins', sans-serif;
     background-color: rgb(231, 228, 228);
-    margin: 0% 8%;
+    margin: 0%;
 }
 .navbar ul {
     list-style-type:none;
@@ -27,9 +27,23 @@ body {
 }
 .introduction-area {
     display: flex;
+    margin: 0 8%;
 }
 .about_area {
     display: flex;
+    margin: 0 8%;
+}
+.work_area h2{
+    text-align: center;
+    margin: 0 8%;
+}
+.inquiry_area {
+    background-image: url(images/Rectangle\ 20.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    margin: 0 8%;
+    align-items: center;
 }
 h1 {
     font-family:'Bebas Neue', cursive;
@@ -44,13 +58,24 @@ h2 {
 .blue_color {
     color: rgb(59, 51, 90);
 }
+h3 {
+    font-family:'Bebas Neue', cursive;
+    font-size: 25px;
+    font-weight: bold;
+}
+h4 {
+    font-family:'Bebas Neue', cursive;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: rgb(122, 122, 122);
+}
 .salmon_color {
     color: salmon;
 }
 .button {
     text-decoration: none;
     border-style: none;
-    padding: 10px 50px;
+    padding: 14px 50px;
     border-radius: 25px;
     font-size: 16px;
     font-weight: 500;
@@ -64,6 +89,73 @@ h2 {
 .container img {
     margin-top: -60px;
     width: 90%;
+}
+.flexible_area {
+    display: flex;
+    margin: 0 8%;
+}
+.work_card{
+    width:33%;
+    margin: 2%;
+    padding: 2%;
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 12px;
+}
+.work_card img {
+    width: 100%;
+}
+.inquiry {
+    width: 50%;
+    margin:10% 15%;
+}
+.inquiry h2 {
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: white;
+    
+}
+.inquiry a {
+    background-image: linear-gradient(to right, salmon, tomato );
+    padding: 10px 50px;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 3px;
+    border-radius: 30px;
+}
+.information-area {
+    margin-bottom: 5%;
+}
+.information {
+    text-align: center;
+}
+.information h3 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top: -25px;
+}
+.information img {
+    width: 40px;
+    margin: 10px;
+}
+.form {
+    width: 52%;
+    padding: 5% 15%;
+    margin: -2% 9%;
+    
+    background-color: white;
+    text-align: center;
+}
+.form_item {
+width: 100%;
+margin-bottom: 10px;
+padding: 16px 15px;  
+}
+footer {
+    width: 100%;
+    padding: 5px;
+    margin:0;
+    background-color: rgb(36, 35, 35);
+    text-align: center;
 }
 
 
